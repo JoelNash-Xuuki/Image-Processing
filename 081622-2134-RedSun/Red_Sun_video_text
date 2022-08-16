@@ -1,0 +1,32 @@
+w=9.5
+
+ffplay -i $1\
+  -af "volumne=0.5" -vf "transpose=1","drawtext=fontcolor=pink:fontsize=60:x=0:y=0:enable='between(t,0,30.50):textfile=Maybe-we-could-want-more.txt',
+				     drawtext=fontcolor=pink:fontsize=60:x=0:y=0:enable='between(t,0,30.50):textfile=Like-for-instance-after-instance.txt'";
+	  				 #drawtext=fontcolor=pink:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=then-it-go.txt',
+					 #drawtext=fontcolor=pink:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=These-things-keep-unfolding.txt',
+			   		 #drawtext=fontcolor=pink:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=And-unfolding.txt',
+					 #drawtext=fontcolor=pink:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=Its-perpetual-you-know.txt',
+					 #drawtext=fontcolor=lightgreen:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=Oh-find-me-better-for-it.txt',
+					 #drawtext=fontcolor=lightgreen:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=Better-for-this.txt',
+					 #drawtext=fontcolor=red:fontsize=70:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=Oh-red-sun-in-the-morning.txt',
+					 #drawtext=fontcolor=white:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=Ghost-ride-and-Im-sideways.txt',
+					 #drawtext=fontcolor=white:fontsize=60:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=No-side.txt',
+					 #drawtext=fontcolor=white:fontsize=50:x=W/$w:y=H/9.5:enable='between(t,0,30.50):textfile=Nose-dive.txt'";
+
+	  #drawtext=text='\                 could': fontcolor=pink: fontsize=60:x=W/$w:y=H/9.5:enable='between(t,2.42,30.50)',
+	  #drawtext=text='\                          want': fontcolor=pink: fontsize=60:x=W/$w:y=H/9.5:enable='between(t,2.72,30.50)',
+      #drawtext=text='\                                  more': fontcolor=pink: fontsize=60:x=$w:y=H/9.5:enable='between(t,3.20,30.50)',
+	  #drawtext=text='\like': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,3.60,30.50)',
+	  #drawtext=text='\       for': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,3.97,30.50)',
+	  #drawtext=text='\            in': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,4.28,30.50)',
+	  #drawtext=text='\                stance': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,4.57,30.50)',
+	  #drawtext=text='\                            af': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,4.57,30.50)',
+ 	  #drawtext=text='\                               ter': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,4.57,30.50)',
+	  #drawtext=text='\                                      in': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,4.57,30.50)',
+	  #drawtext=text='\                                          stance': fontcolor=pink: fontsize=60:x=W/$w:y=H/7.5:enable='between(t,4.57,30.50)',
+	  #drawtext=text='\then it go ': fontcolor=pink: fontsize=60:x=W/9.5:y=H/6.3:enable='between(t,4.57,30.50)',
+	  #drawtext=text='\These things keep unfolding': fontcolor=pink: fontsize=60:x=W/$w:y=H/5.0:enable='between(t,4.57,30.50)',
+	  #drawtext=text='\and unfolding its perpectual you': fontcolor=pink: fontsize=60:x=W/$w:y=H/4.0:enable='between(t,4.57,30.50)',
+      #drawtext=text='\know ': fontcolor=pink: fontsize=60:x=W/$w:y=H/3.0:enable='between(t,4.57,30.50)',
+	  #drawtext=text='\      find  me better for it better for this': fontcolor=pink: fontsize=60:x=W/$w:y=H/3.0:enable='between(t,4.57,30.50)'";
