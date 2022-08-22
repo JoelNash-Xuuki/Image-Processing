@@ -1,0 +1,7 @@
+convert \
+   Xuuki.png \
+  -background transparent \
+  -gravity center \
+  -extent 1080x1920 \
+  -compose Copy_Opacity \
+   original-resized.png
