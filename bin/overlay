@@ -1,1 +1,0 @@
-ffplay -y -i $1 -i $2 -filter_complex "[1:v]scale=640:360[top];[0:v][top]overlay 'lt(mod(t,1)2)'" 

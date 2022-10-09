@@ -1,0 +1,3 @@
+ffmpeg -i $1 -vf "movie=$2 [watermark]; [watermark]scale=200x200 [watermark2];[in][watermark2] overlay=(W/2)-(overlay_w/2):(H/2)-(overlay_h/2):enable='between(t,(0.712*4),(0.712*8))'[out]" $3
+
+
