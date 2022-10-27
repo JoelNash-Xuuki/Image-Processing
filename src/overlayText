@@ -1,3 +1,1 @@
-convert -background transparent -fill lightblue \
-          -font ~/.fonts/xuukitype1.ttf -pointsize 144 label:Hi \
-          hi.png
+
